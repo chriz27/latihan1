@@ -1,0 +1,50 @@
+/* Navbar */
+.navbar {
+  background-color: rgb(50, 0, 0) !important;
+  margin-top: -10px;
+}
+.navbar-brand {
+  font-family: Sura;
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+}
+.nav-link {
+  font-family: Sura;
+  font-size: 18;
+  margin-right: 40;
+  color: white;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* HERO */
+.hero-image {
+  background-image: url("img/Covid-19.jpg");
+  background-size: cover;
+  height: 750px;
+  width: auto;
+  text-align: center;
+}
+.hero-image .display-4 {
+  font-family: Oswald;
+  color: white;
+  padding-top: 280px;
+  font-weight: bold;
+}
+.hero-image .tag {
+  font-family: Oswald;
+  color: white;
+  font-size: 24;
+  font-style: italic;
+}
+
+/* ========== DEKSTOP VERTION =========== */
+@media (min-width: 992px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .hero-image {
+    margin-top: -83px;
+  
+}
