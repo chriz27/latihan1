@@ -32,13 +32,51 @@
   font-weight: bold;
 }
 .hero-image .tag {
-  font-family: Oswald;
+  font-family: Cabin;
   color: white;
   font-size: 24;
   font-style: italic;
 }
+.icon-covid1 {
+  background-color: #9b3036;
+  box-shadow: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: Oswald;
+  border-radius: 27px;
+}
+.btn {
+  background-color: #9b3036;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+.btn:hover {
+  background-color: #ffffff;
+  border: 3px;
+  border-bottom: 3px;
+  border-color: #9b3036;
+}
+.table {
+  font-family: Oswald;
+  font-size: 24px;
+}
+.vberita {
+  background-color: #9b3036;
+  color: white;
+  font-family: Oswald;
+}
+footer {
+  background-color: #9b3036;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-family: Oswald;
+  padding: 3px;
+}
 
 /* ========== DEKSTOP VERTION =========== */
+
 @media (min-width: 992px) {
   .navbar {
     background-color: rgba(0, 0, 0, 0.3) !important;
@@ -46,5 +84,5 @@
 
   .hero-image {
     margin-top: -83px;
-  
+  }
 }
